@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import "tachyons";
-// import App from './App';
-import Spacex from "./spacex";
+import Card from "./card";
 import reportWebVitals from "./reportWebVitals";
+import "tachyons";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Spacex />
+    <div>
+      <Card />
+      <Card />
+      <Card />
+    </div>
+    <h1>HI</h1>
   </React.StrictMode>
 );
 
